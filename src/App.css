@@ -1,0 +1,163 @@
+```css
+/* ==========================
+   HALAMAN UTAMA
+========================== */
+body {
+  margin: 0;
+
+  /* background utama */
+  background: #111111;
+
+  font-family: Arial, sans-serif;
+
+  /* warna teks default */
+  color: #f5f5f5;
+}
+
+/* ==========================
+   CONTAINER
+========================== */
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* ==========================
+   JUDUL
+========================== */
+h1 {
+
+  /* putih supaya terlihat */
+  color: white;
+
+  font-size: 36px;
+
+  margin-bottom: 10px;
+}
+
+/* ==========================
+   TEKS STATUS & SCORE
+========================== */
+p {
+
+  /* abu terang biar nyaman */
+  color: #dddddd;
+
+  font-size: 18px;
+}
+
+/* ==========================
+   SCORE X DAN O
+========================== */
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+/* ==========================
+   PAPAN TIC TAC TOE
+========================== */
+.board {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 80px);
+
+  gap: 8px;
+
+  justify-content: center;
+
+  margin: 20px 0;
+}
+
+/* ==========================
+   KOTAK GAME
+========================== */
+.cell {
+
+  width: 80px;
+  height: 80px;
+
+  /* border abu biar keliatan */
+  border: 2px solid #555;
+
+  /* dark gray */
+  background: #1e1e1e;
+
+  font-size: 30px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  /* transisi hover */
+  transition: 0.2s ease;
+}
+
+/* ==========================
+   HOVER CELL
+========================== */
+.cell:hover {
+
+  /* sedikit lebih terang */
+  background: #2d2d2d;
+}
+
+/* ==========================
+   WARNA X
+========================== */
+.x-color {
+
+  /* biru terang */
+  color: #4da6ff;
+}
+
+/* ==========================
+   WARNA O
+========================== */
+.o-color {
+
+  /* merah terang */
+  color: #ff5a5a;
+}
+
+/* ==========================
+   KUMPULAN TOMBOL
+========================== */
+.buttons {
+  margin-top: 15px;
+}
+
+/* ==========================
+   TOMBOL BAWAH
+========================== */
+.buttons button {
+
+  margin: 5px;
+
+  padding: 8px 14px;
+
+  border: 2px solid #555;
+
+  /* senada dark mode */
+  background: #1e1e1e;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+  transition: 0.2s ease;
+}
+
+/* ==========================
+   HOVER TOMBOL
+========================== */
+.buttons button:hover {
+
+  background: #2d2d2d;
+}
+```
