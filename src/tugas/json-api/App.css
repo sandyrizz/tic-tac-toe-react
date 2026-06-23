@@ -1,0 +1,50 @@
+/* background utama */
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+/* container */
+.container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* judul */
+h1 {
+  color: white;
+}
+
+/* tabel wrapper */
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* tabel */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 700px;
+  background: #1e1e1e;
+}
+
+/* border tabel */
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: center;
+}
+
+/* header tabel */
+th {
+  background: #2d2d2d;
+}
+
+/* hover row */
+tr:hover {
+  background: #333;
+}
